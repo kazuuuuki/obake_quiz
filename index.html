@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>天才になれなかった全ての人へ</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- クイズエリア -->
+    <div class="quiz_area">
+      <!-- 回答中の表示 -->
+      <div class="quiz_set">
+        <p class="quiz_no_text">第<span class="quiz_no"></span>問</p>
+        <!-- 問題文 -->
+        <div class="quiz_question">ここに問題文が入ります</div>
+        <!-- 選択肢 -->
+        <div class="quiz_ans_area">
+          <ul>
+            <li>選択肢1</li>
+            <li>選択肢2</li>
+            <li>選択肢3</li>
+          </ul>
+        </div>
+        <!-- 回答後の表示 -->
+
+        <!-- 追加 画面に被せる -->
+        <div class="quiz_area_bg"></div>
+        <div class="quiz_area_icon"></div>
+        <!-- 現在の正解数 -->
+        <div class="ans_now"></div>
+      </div>
+      <!-- クイズ終了後の表示 -->
+      <div class="quiz_result"></div>
+    </div>
+
+    <!-- jsを読み込む -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/quizData.js"></script>
+    <!-- jsを読み込む -->
+  </body>
+</html>
