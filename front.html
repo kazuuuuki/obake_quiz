@@ -37,10 +37,21 @@
       <img src="img/elen5.jpg" alt="左利きのエレン名言" class="elen05" />
       <img src="img/elen6.jpg" alt="左利きのエレン名言" class="elen06" />
     </div>
+    <div class="arashi">
+      <img src="/img/arashi.png" alt="" class="arashi01" />
+      <img src="/img/arashi.png" alt="" class="arashi02" />
+    </div>
 
     <!-- jsを読み込む -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector('.elen'), {
+        max: 25,
+        speed: 400,
+      });
+    </script>
     <!-- jsを読み込む -->
   </body>
 </html>
