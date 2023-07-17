@@ -94,7 +94,7 @@ aryQuiz.push(
   },
   {
     question:
-      'Googleが提供する、Webサイトのインデックス状況など検索エンジン最適化をサポートするツールは『Google』〇〇というでしょう？',
+      'Googleが提供する、Webサイトのインデックス状況など検索エンジン最適化をサポートするツールは『Google 〇〇』と言いますか？',
     answer: ['SearchConsole', 'Analytics', 'TagManager'],
   },
   {
