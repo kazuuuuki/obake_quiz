@@ -30,6 +30,16 @@
     left: 20%;
   }
 
+  .test_cnt {
+    font-size: 1.5rem;
+  }
+  .result_cnt {
+    font-size: 3rem;
+  }
+  .final_text {
+    font-size: 2.5rem;
+  }
+
   /*  */
   /* front.html */
   /*  */
