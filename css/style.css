@@ -160,6 +160,13 @@ li {
 
 /* 現在の正解数に応じた表示 */
 
+.result_img {
+  position: fixed;
+  bottom: 0;
+  left: 35%;
+  /* transform: translateX(-50%); */
+}
+
 .ans_now img {
   font-size: 40px;
   width: 20%;

@@ -79,21 +79,21 @@ $(function () {
     //正当数に応じてコメント(画像)を変化させたい!!
     let actNow = document.querySelector('.ans_now');
     if (quiz_success_cnt <= 0) {
-      b = "<img src='img/obake01.png'>";
+      b = "<img class='result_img' src='img/obake01.png'>";
     } else if (quiz_success_cnt <= 1) {
-      b = "<img src='img/obake02.png'>";
+      b = "<img class='result_img' src='img/obake02.png'>";
     } else if (quiz_success_cnt <= 2) {
-      b = "<img src='img/obake03.png'>";
+      b = "<img class='result_img' src='img/obake03.png'>";
     } else if (quiz_success_cnt <= 4) {
-      b = "<img src='img/obake04.png'>";
+      b = "<img class='result_img' src='img/obake04.png'>";
     } else if (quiz_success_cnt <= 5) {
-      b = "<img src='img/obake05.png'>";
+      b = "<img class='result_img' src='img/obake05.png'>";
     } else if (quiz_success_cnt <= 6) {
-      b = "<img src='img/obake06.png'>";
+      b = "<img class='result_img' src='img/obake06.png'>";
     } else if (quiz_success_cnt <= 7) {
-      b = "<img src='img/obake07.png'>";
+      b = "<img class='result_img' src='img/obake07.png'>";
     } else {
-      b = "<img src='img/obake00.png'>";
+      b = "<img class='result_img' src='img/obake00.png'>";
     }
     actNow.innerHTML = b;
   }
