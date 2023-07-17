@@ -43,4 +43,12 @@
   /*  */
   /* front.html */
   /*  */
+
+  .front {
+    margin-top: 50%;
+    font-size: 1.5rem;
+  }
+  .elen {
+    display: none;
+  }
 }
