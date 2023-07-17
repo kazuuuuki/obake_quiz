@@ -24,6 +24,10 @@
   .ans_now img {
     width: 50%;
   }
+  .result_img {
+    position: fixed;
+    bottom: 0;
+  }
 
   /*  */
   /* front.html */
